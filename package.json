@@ -1,0 +1,17 @@
+{
+  "name": "kodaikanal",
+  "version": "1.0.0",
+  "description": "Landing page for kodaikanal",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Suman Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
