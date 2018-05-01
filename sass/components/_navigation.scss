@@ -37,7 +37,7 @@
         transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
     &__list {
-        @include center-h-v;
+        @include absoluteCenter;
         list-style: none;
         text-align: center;
         width: 100%;
